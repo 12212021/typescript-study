@@ -1,1 +1,1 @@
-# typescirpt-study
+# ts-in-action

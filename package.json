@@ -1,0 +1,34 @@
+{
+  "name": "typescirpt-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-cli serve --mode=development --config ./build/webpack.config.js",
+    "build": "webpack-cli --mode=production --config ./build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12212021/typescirpt-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/12212021/typescirpt-study/issues"
+  },
+  "homepage": "https://github.com/12212021/typescirpt-study#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.10.1"
+  }
+}
